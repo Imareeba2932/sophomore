@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS Styling</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right, yellow,pink);
+        }
+        h1{
+            color: aliceblue; 
+            background-color:blueviolet; 
+            text-align: center;
+            font-family: sans-serif; 
+            border: 2px solid white;
+            padding-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            margin-top: 50px;
+            
+        }
+        p{
+            font-size: 200%; 
+            text-align: center;
+        }
+        .highlight{
+            background-color: tomato;
+            font-family: monospace;
+            font-size: larger;
+        }
+        </style>
+        <link rel="stylesheet" href="external.css">
+</head>
+<body>
+    <h1>Welcome to Internal CSS Example</h1>
+    <hr>
+    <p>This is an example of HTML document with internal CSS styling.</p>
+    <p>This paragraph has a different color and font size</p>
+    <p class="highlight">Each paragraph has some margin at the bottom</p>
+    
+</body>
+</html>
